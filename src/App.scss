@@ -1,0 +1,38 @@
+.content {
+  padding-top: 100px;
+}
+
+.container {
+  max-width: 1400px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.loading img {
+  height: 40px;
+  width: 40px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3C3C3C;
+  padding: 30px 50px;
+  border-radius: 14px;
+  border: 2px solid red;
+  box-shadow: 
+    0 0 10px red; 
+  max-width: 50%;
+  margin: 0 auto;
+}

@@ -1,0 +1,28 @@
+.about {
+  background-color: #3C3C3C;
+  border-radius: 14px;
+  padding: 20px;
+  margin-top: 40px;
+  &-wrapper {
+    background-color: #202020;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  h1 {
+      text-shadow: 
+        0 0 1px #fff, 
+        0 0 2px #fff, 
+        0 0 1px var(--primary-color-orange), 
+        0 0 5px var(--primary-color-orange), 
+        0 0 10px var(--primary-color-orange), 
+        0 0 15px var(--primary-color-orange);
+  }
+  h2, h3 {
+    text-shadow: 
+      0 0 5px var(--primary-color-orange), 
+      0 0 15px var(--primary-color-orange);
+  }
+  p {
+    font-size: 18px;
+  }
+}

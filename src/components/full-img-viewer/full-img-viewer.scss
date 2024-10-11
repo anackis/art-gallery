@@ -1,0 +1,104 @@
+.full-img-viewer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  .full-img-viewer-backdrop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    animation: fadeIn 0.3s ease;
+  }
+  .full-img-viewer-image {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 1001;
+  }
+  .full-img-viewer-close-button {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    display: block;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    z-index: 99999;  
+  }
+  .full-img-viewer-close-button:hover .full-img-viewer-close-button__line {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    scale: 1.1;
+    box-shadow: 
+      0 0 5px #fff,
+      0 0 5px #fff,
+      0 0 10px var(--primary-color-orange),
+      0 0 20px var(--primary-color-orange),
+      0 0 20px var(--primary-color-orange),
+      0 0 45px var(--primary-color-orange);
+  }
+  .full-img-viewer-close-button:active .full-img-viewer-close-button__line {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    scale: 1;
+    box-shadow: 
+      0 0 1px #fff,
+      0 0 1px #fff,
+      0 0 10px var(--primary-color-orange),
+      0 0 10px var(--primary-color-orange),
+      0 0 25px var(--primary-color-orange),
+      0 0 10px var(--primary-color-orange);
+  }
+  .full-img-viewer-close-button__line {
+    display: block;
+    margin: 8px 0;
+    background-color: #000;
+    height: 4px;
+    width: 40px;
+    transition: all 0.5s;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 
+      0 0 2px #fff,
+      0 0 2px #fff;  
+  }
+  .full-img-viewer-close-button__line_white {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 
+      0 0 1px #fff,
+      0 0 1px #fff,
+      0 0 10px var(--primary-color-orange),
+      0 0 10px var(--primary-color-orange),
+      0 0 25px var(--primary-color-orange),
+      0 0 10px var(--primary-color-orange);
+  }
+  .full-img-viewer-close-button__rotate-45 {
+    transform: rotate(45deg);
+    position: relative;
+    top: 7px;
+    transition: all 0.5s;
+  }
+  .full-img-viewer-close-button__rotate-minus-45 {
+    transform: rotate(-45deg);
+    position: relative;
+    top: -5px;
+    transition: all 0.5s;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
