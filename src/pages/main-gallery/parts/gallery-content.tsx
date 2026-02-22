@@ -52,13 +52,12 @@ export const GalleryContent = ({
       return <div className="no-artworks">No artworks found</div>;
     }
 
-    const galleryCards = artworks.map((art, index) => (
+    const galleryCards = artworks.map((art) => (
       <GalleryCard
         key={art.id}
         art={art}
         onReplace={() => onReplaceArtwork(art.id)}
         isReplacing={replacingIds.includes(art.id)}
-        isHighlighted={index === 1}
       />
     ));
 

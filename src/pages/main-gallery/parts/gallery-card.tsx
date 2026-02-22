@@ -5,14 +5,12 @@ interface GalleryCardProps {
   art: ArtObject;
   onReplace: () => void;
   isReplacing: boolean;
-  isHighlighted?: boolean;
 }
 
 export const GalleryCard = ({
   art,
   onReplace,
   isReplacing,
-  isHighlighted = false,
 }: GalleryCardProps) => {
   const navigate = useNavigate();
 
@@ -21,7 +19,7 @@ export const GalleryCard = ({
   };
 
   return (
-    <div className={`gallery-card ${isHighlighted ? "gallery-card-highlighted" : ""}`}>
+    <div className="gallery-card">
       <div className="gallery-card-img-wrapper">
         {art.webImage.url ? (
           <img src={art.webImage.url} alt={art.title} onClick={handleClick} />
