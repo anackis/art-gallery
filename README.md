@@ -66,19 +66,16 @@ Data mapping extracts and formats:
 
 ![1](https://github.com/user-attachments/assets/bd25fa9c-f8b5-4558-a157-063429bf2da1)
 
-![2](https://github.com/user-attachments/assets/5ed9df9f-9103-4855-b1f0-e8fdceac8f14)
+![2](https://github.com/user-attachments/assets/3083a149-9b28-4d33-ba8b-6c5ea7c7796f)
 
-![3](https://github.com/user-attachments/assets/b8dc2e9c-49a0-47dd-8541-99eaecf7c7d1)
+![3](https://github.com/user-attachments/assets/f701c774-b9cc-466f-a832-4ae11d10608c)
 
-![4](https://github.com/user-attachments/assets/3a7c8b22-0461-46c6-af9e-98ae23439375)
+![4](https://github.com/user-attachments/assets/dd3002b3-a37e-4d15-94e0-dc28f137fc90)
 
-![5](https://github.com/user-attachments/assets/d6c2f791-b5d3-42a5-bd8f-d5c7408d57eb)
+![5](https://github.com/user-attachments/assets/d365f27c-68ff-4a73-8123-e5b5969eab49)
 
-![6](https://github.com/user-attachments/assets/6ffcab2d-6172-4745-9726-a0bd9a28025d)
+![6](https://github.com/user-attachments/assets/0d1ad1e1-d4a5-46dc-892d-86847f9ca2d5)
 
-![7](https://github.com/user-attachments/assets/c6ef6bed-622d-4b24-a90e-53db40520d7b)
+![7](https://github.com/user-attachments/assets/df352f6c-728e-4fc0-8320-3f29a036ed3f)
 
-![8](https://github.com/user-attachments/assets/171cef76-8d35-459c-a54c-d33405cc3af6)
-
-
-
+![8](https://github.com/user-attachments/assets/28eb92dc-36d3-4689-aa15-53e78e15603b)
