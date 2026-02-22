@@ -1,25 +1,54 @@
 .about {
-  background-color: #3C3C3C;
+  background-color: #3c3c3c;
   border-radius: 14px;
-  padding: 20px;
+  padding: 6px;
   margin-top: 40px;
+  max-height: 86dvh;
+  display: flex;
+  flex-direction: column;
   &-wrapper {
     background-color: #202020;
-    padding: 20px;
     border-radius: 12px;
+    flex: 1;
+    overflow: hidden;
+    padding: 8px 8px 8px 8px;
+    display: flex;
+  }
+  &-content {
+    padding: 8px 8px 8px 8px;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+    &::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: rgba(240, 101, 15, 0.6);
+      border-radius: 10px;
+      @media (hover: hover) {
+        &:hover {
+          background: rgba(240, 101, 15, 0.8);
+        }
+      }
+    }
   }
   h1 {
-      text-shadow: 
-        0 0 1px #fff, 
-        0 0 2px #fff, 
-        0 0 1px var(--primary-color-orange), 
-        0 0 5px var(--primary-color-orange), 
-        0 0 10px var(--primary-color-orange), 
-        0 0 15px var(--primary-color-orange);
+    text-shadow:
+      0 0 1px #fff,
+      0 0 2px #fff,
+      0 0 1px var(--primary-color-orange),
+      0 0 5px var(--primary-color-orange),
+      0 0 10px var(--primary-color-orange),
+      0 0 15px var(--primary-color-orange);
   }
-  h2, h3 {
-    text-shadow: 
-      0 0 5px var(--primary-color-orange), 
+  h2,
+  h3 {
+    text-shadow:
+      0 0 5px var(--primary-color-orange),
       0 0 15px var(--primary-color-orange);
   }
   p {

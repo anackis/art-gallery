@@ -1,15 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.scss';
-import './responsive.scss';
-import App from './App';
-import { BrowserRouter } from 'react-router-dom';
+import ReactDOM from "react-dom/client";
+import { App } from "./App";
+import { BrowserRouter } from "react-router-dom";
+import { StrictMode } from "react";
+import "./index.scss";
+import "./responsive.scss";
 
-const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
+const root = ReactDOM.createRoot(
+  document.getElementById("root") as HTMLElement,
+);
 root.render(
-  <React.StrictMode>
+  <StrictMode>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </React.StrictMode>
+  </StrictMode>,
 );

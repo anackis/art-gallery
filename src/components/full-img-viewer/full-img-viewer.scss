@@ -31,27 +31,29 @@
     position: absolute;
     top: 70px;
     right: 70px;
-    z-index: 99999;  
+    z-index: 99999;
   }
-  .full-img-viewer-close-button:hover .full-img-viewer-close-button__line {
-    background-color: #fff;
-    border: 2px solid #fff;
-    border-radius: 10px;
-    scale: 1.1;
-    box-shadow: 
-      0 0 5px #fff,
-      0 0 5px #fff,
-      0 0 10px var(--primary-color-orange),
-      0 0 20px var(--primary-color-orange),
-      0 0 20px var(--primary-color-orange),
-      0 0 45px var(--primary-color-orange);
+  @media (hover: hover) {
+    .full-img-viewer-close-button:hover .full-img-viewer-close-button__line {
+      background-color: #fff;
+      border: 2px solid #fff;
+      border-radius: 10px;
+      scale: 1.1;
+      box-shadow:
+        0 0 5px #fff,
+        0 0 5px #fff,
+        0 0 10px var(--primary-color-orange),
+        0 0 20px var(--primary-color-orange),
+        0 0 20px var(--primary-color-orange),
+        0 0 45px var(--primary-color-orange);
+    }
   }
   .full-img-viewer-close-button:active .full-img-viewer-close-button__line {
     background-color: #fff;
     border: 2px solid #fff;
     border-radius: 10px;
     scale: 1;
-    box-shadow: 
+    box-shadow:
       0 0 1px #fff,
       0 0 1px #fff,
       0 0 10px var(--primary-color-orange),
@@ -68,15 +70,15 @@
     transition: all 0.5s;
     border: 2px solid #fff;
     border-radius: 10px;
-    box-shadow: 
+    box-shadow:
       0 0 2px #fff,
-      0 0 2px #fff;  
+      0 0 2px #fff;
   }
   .full-img-viewer-close-button__line_white {
     background-color: #fff;
     border: 2px solid #fff;
     border-radius: 10px;
-    box-shadow: 
+    box-shadow:
       0 0 1px #fff,
       0 0 1px #fff,
       0 0 10px var(--primary-color-orange),
@@ -99,6 +101,10 @@
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
