@@ -7,7 +7,7 @@ Art gallery web application built with React and TypeScript, showcasing artworks
 - **Random artwork discovery**: Load random paintings from the Met's collection
 - **Detailed artwork view**: View high-resolution images with comprehensive metadata (artist, date, culture, medium, etc.)
 - **Full-screen image viewer**: Click images to view them in full-screen mode
-- **Responsive design**: Adaptive layout with slider on mobile devices
+- **Responsive design**: Adaptive layout with a slider on mobile devices
 - **Client-side routing**: Smooth navigation between pages
 
 ## Tech Stack
@@ -64,12 +64,21 @@ Data mapping extracts and formats:
 
 ## Screenshots
 
-![1](https://github.com/user-attachments/assets/5b3e4a40-84f9-4879-aa20-222c4afa1afc)
+![1](https://github.com/user-attachments/assets/bd25fa9c-f8b5-4558-a157-063429bf2da1)
 
-![2](https://github.com/user-attachments/assets/8acb835e-65c3-46aa-97c4-ea535d9aeaa6)
+![2](https://github.com/user-attachments/assets/5ed9df9f-9103-4855-b1f0-e8fdceac8f14)
 
-![3](https://github.com/user-attachments/assets/f2b9b849-9e90-4197-ac02-6ca2279b4a78)
+![3](https://github.com/user-attachments/assets/b8dc2e9c-49a0-47dd-8541-99eaecf7c7d1)
 
-![4](https://github.com/user-attachments/assets/db1e3b11-8ed1-4de7-b3a7-d3bfeb0009f8)
+![4](https://github.com/user-attachments/assets/3a7c8b22-0461-46c6-af9e-98ae23439375)
 
-![5](https://github.com/user-attachments/assets/fb5815f6-0355-457e-95b6-7a32b8b01f87)
+![5](https://github.com/user-attachments/assets/d6c2f791-b5d3-42a5-bd8f-d5c7408d57eb)
+
+![6](https://github.com/user-attachments/assets/6ffcab2d-6172-4745-9726-a0bd9a28025d)
+
+![7](https://github.com/user-attachments/assets/c6ef6bed-622d-4b24-a90e-53db40520d7b)
+
+![8](https://github.com/user-attachments/assets/171cef76-8d35-459c-a54c-d33405cc3af6)
+
+
+
